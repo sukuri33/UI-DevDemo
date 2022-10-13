@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Form Demo</title>
+    <style>
+        body{
+            background-color: #60B7B7FF
+        }
+
+        p{
+           background-color: cornsilk;
+            font-size: 20px;
+            font-family: "American Typewriter";
+        }
+
+    </style>
+</head>
+<body>
+
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis distinctio dolor enim eveniet hic ipsam natus pariatur ullam unde! Adipisci commodi consequatur dignissimos dolores hic impedit magni modi quaerat repellendus.
+
+</p>
+
+    <form>
+        <p>Username:
+            <label for="un">
+                <input type="text" name="username" id="un">
+            </label>
+        </p>
+        <p>Password:
+                <input type="password" name="pwd">
+
+        </p>
+
+        <hr>
+        <p>What do you think about your last trip?</p>
+        <textarea name="question" id="123" cols="30" rows="10" placeholder="Enter your feedback here."></textarea>
+
+
+
+    </form>
+
+    <form>
+        <p>Please select your gender:</p>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+        <p>Enter your DoB:</p>
+        <input type="date">
+        <p>upload your document:</p>
+        <input type="file">
+        <p>Married?</p>
+
+        <p>
+            <label for="j">
+                <input type="checkbox" value="yes" name="checkbox" id="j">Yes
+            </label>
+        </p>
+
+
+        <p>Please select your car:</p>
+        <select name="cars" id="bmw">
+            <option value="" disabled selected>Please select a car type</option>
+            <option value="e30">E30</option>
+            <option value="e46">E46</option>
+            <option value="e24">E24</option>
+        </select>
+
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
