@@ -14,3 +14,16 @@ p{
     font-family: "Arial Black";
     color: antiquewhite;
 }
+
+/*#Submit{*/
+/*    background-color: aqua;*/
+/*}*/
+
+.btn1{
+    background-color: aqua;
+    font-size: 20px;
+}
+.btn1:hover{
+    background-color: #61b7b7;
+    font-size: 22px;
+}
